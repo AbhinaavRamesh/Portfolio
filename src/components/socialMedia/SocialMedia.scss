@@ -31,6 +31,9 @@
 .facebook i {
   background-color: $faceBook;
 }
+.googleScholar i {
+  background-color: $faceBook;
+}
 
 .linkedin i {
   background-color: $linkedin;
@@ -78,6 +81,7 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
+.googleScholar i:hover,
 .medium i:hover {
   background-color: $textColor;
 }

@@ -19,6 +19,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      {socialMediaLinks.googleScholar ? (
+        <a
+          href={socialMediaLinks.googleScholar}
+          className="icon-button googleScholar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-globe"></i>
+          <span></span>
+        </a>
+      ) : null}
 
       {socialMediaLinks.linkedin ? (
         <a
