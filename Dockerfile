@@ -22,6 +22,14 @@ RUN npm audit fix
 # Bundle app source
 COPY . /app
 
+
+RUN git config --global user.email "contactabhinaav@gmail.com"
+RUN git config --global user.name "AbhinaavRamesh"
+
+
+RUN npm run predeploy
+RUN npm run deploy
+
 # Make port 3000 available to the world outside this container
 EXPOSE 3000
 
